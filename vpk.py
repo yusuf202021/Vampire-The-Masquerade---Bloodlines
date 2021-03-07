@@ -57,12 +57,12 @@ def İmport(newfile, files):
 
 
 if len(sys.argv) < 2:
-    print("Kullanım:\n\t-e\tDosyayı arşivden çıkartır\n\t-i\tDosyayı tekrar arşivler")
+    print("Usage:\n\t-e\Extracts the archive\n\t-i\tRepack files")
 else:
     if sys.argv[1] == "-e":
         export(sys.argv[2], sys.argv[3])
     elif sys.argv[1] == "-i":
         İmport(sys.argv[2], sys.argv[3])
     else:
-        print("Yanlış bir seçenek girdiniz")
+        print("Invalid option")
         
