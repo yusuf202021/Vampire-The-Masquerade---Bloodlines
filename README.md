@@ -1,5 +1,5 @@
 # Vampire-The-Masquerade---Bloodlines
-I was making this for my friend after i decided to share it as public.
+I was making this for my friend.Then i decided to share it public
 
 Usage:
       
